@@ -21,7 +21,7 @@
 // @updateURL    https://github.com/Charcoal-SE/userscripts/raw/master/sim/sim.user.js
 // @downloadURL  https://github.com/Charcoal-SE/userscripts/raw/master/sim/sim.user.js
 // ==/UserScript==
-
+/* eslint camelcase: ["warn", {"allow": ["manual_flags"]}] */
 /* globals StackExchange, $ */
 
 (() => {

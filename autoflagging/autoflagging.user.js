@@ -46,7 +46,7 @@
 // @require     https://charcoal-se.org/userscripts/vendor/debug.min.js
 // @grant       none
 // ==/UserScript==
-
+/* eslint camelcase: ["warn", {"allow": ["reason_weight"]}] */
 /* global autoflagging, ReconnectingWebSocket, unsafeWindow, CHAT, $, Notifier */
 
 // To enable/disable trace information, type autoflagging.trace(true) or

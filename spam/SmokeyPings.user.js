@@ -9,7 +9,7 @@
 // @match       *://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta*
 // @grant       none
 // ==/UserScript==
-
+/* eslint camelcase: ["warn", {"allow": ["event_type", "user_id"]}] */
 // Set the constant by passing in an object and then selecting which key to use based on the current host:
 const smokeyID = {
   "chat.stackexchange.com": 120914,
