@@ -19,6 +19,7 @@ do
 done
 
 echo "Building main project..."
+npm install
 npm test
 ecode=$?
 if [ "$ecode" != "0" ]
