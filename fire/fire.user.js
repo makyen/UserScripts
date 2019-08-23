@@ -2325,7 +2325,8 @@
             setTimeout(getCurrentChatUser, multiplier * fire.constants.loadUserDelay, count);
         });
       return;
-    } else if ((multiplier > 1 || (count > 1 && CHAT && CHAT.RoomUsers)) && fire.savedChatUser && fire.savedChatUser.name) { // eslint-disable-line no-extra-parens
+    } // else
+    if ((multiplier > 1 || (count > 1 && CHAT && CHAT.RoomUsers)) && fire.savedChatUser && fire.savedChatUser.name) { // eslint-disable-line no-extra-parens
       fire.chatUser = Object.assign({}, fire.savedChatUser);
       return;
     }
