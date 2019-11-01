@@ -1227,10 +1227,7 @@
       .append(br());
 
     if (!fire.userData.readOnly) {
-      const buttonContainer = _('div', 'fire-popup-feedbackButtonContainer').css({
-        display: 'inline-block',
-        'vertical-align': 'middle'
-      });
+      const buttonContainer = _('div', 'fire-popup-feedbackButtonContainer');
       top.append(buttonContainer);
       /* eslint-disable no-multi-spaces */
       buttonContainer
