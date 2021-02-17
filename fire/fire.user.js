@@ -37,7 +37,7 @@
 /**
  * anonymous function - IIFE to prevent accidental pollution of the global scope..
  */
-(() => {
+(() => {}
   'use strict';
   let fire;
 
